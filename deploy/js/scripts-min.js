@@ -57,7 +57,7 @@ window.addEventListener('load', function(){
     for(let i = 0; i < triggerElements.length; i++){
         // console.log(triggerElements[i]);
 
-        if(triggerElements[i] === "#skater-with-hat" || triggerElements[i] === "#history-middle"){
+        if(triggerElements[i] === "#skater-with-hat" || triggerElements[i] === "#new skate boards"){
             // console.log(i + " is the index value of triggerElements");
         }
 

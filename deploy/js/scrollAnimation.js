@@ -27,7 +27,7 @@ export function slideInLeft(triggerElement,animationElement ){
         x: 500,
         alpha:0,
         scrollTrigger:{
-            trigger: triggerElement,
+            trigger: "new skate boards",
             toggleActions: "restart none resume none",
             markers: true,
             scrub: true
