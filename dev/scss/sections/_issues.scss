@@ -1,0 +1,103 @@
+ /* =============
+     issues
+ ============= */
+
+ #issues {
+     
+         
+         
+
+     
+   display: grid;
+
+   @include md {
+     display: grid;
+     grid-template-columns: 16px auto 16px;
+     grid-template-areas: ". issues .";
+   }
+
+   @include xl {
+     grid-template-columns: auto 1200px auto;
+   }
+
+
+   >div {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". issues .";
+    
+
+
+    @include md {
+
+        display: grid;
+        grid-area: issues;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". issues .";
+    }
+
+
+    ul {
+
+        margin-top: 20px;
+        gap: 16px;
+        display: grid;
+        grid-area: issues;
+
+        #issues-text{
+            justify-content: center;
+
+
+
+        }
+
+
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+                "i1 i2";
+            
+        }
+
+       
+
+      
+
+
+        li {
+
+            img {
+                width: 100%;
+            }
+
+            h3{
+                color:#A60E0C;
+            }
+
+            h1{
+               justify-self: center;
+            
+
+
+            }
+
+            section {
+                display: grid;
+                grid-template-columns: 16px auto 16px;
+                grid-template-areas: ". issues .";
+
+                >div {
+                    grid-area: issues;
+
+
+
+                }
+            }
+        }
+
+
+    }
+}
+
+}

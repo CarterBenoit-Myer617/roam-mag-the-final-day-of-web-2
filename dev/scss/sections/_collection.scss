@@ -1,0 +1,93 @@
+ /* =============
+     collection
+  ============= */
+ #collection {
+
+   
+  display: grid;
+
+  
+
+  @include md {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". collection .";
+  }
+
+  @include xl {
+    grid-template-columns: auto 1200px auto;
+  }
+
+
+  >div {
+   display: grid;
+   grid-template-columns: 16px auto 16px;
+   grid-template-areas: ". collection .";
+   
+
+
+   @include md {
+
+       display: grid;
+       grid-area: collection;
+       grid-template-columns: 16px auto 16px;
+       grid-template-areas: ". collection .";
+   }
+
+
+   ul {
+       margin-top: 20px;
+       gap: 16px;
+       display: grid;
+       grid-area: collection;
+
+       #red-text{
+        color:#A60E0C;
+       }
+
+
+       @include md {
+           display: grid;
+          
+           
+       }
+
+       li {
+
+           img {
+               width: 100%;
+           }
+
+           h3{
+            color:#A60E0C;
+           }
+
+           section {
+               display: grid;
+               grid-template-columns: 16px auto 16px;
+               grid-template-areas: ". collection .";
+
+               div {
+                   grid-area: collection;
+
+               }
+           }
+       }
+    }
+
+      
+
+     
+
+
+       
+
+
+   }
+}
+
+
+
+
+
+

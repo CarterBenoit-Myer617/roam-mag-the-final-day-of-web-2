@@ -1,0 +1,92 @@
+/* =============
+    Footer
+============= */
+
+#footer {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
+
+    >div {
+        grid-area: footer;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #080808;
+            width: 100%;
+
+
+            #footer-text {
+                text-align: center;
+                width: 100%;
+                color: white;
+                justify-content: center;
+
+                h2 {
+                    color: white;
+                    text-align: center;
+
+                }
+
+            }
+
+            span {
+                color: #A60E0C;
+            }
+
+            li {
+                float: left;
+
+
+
+
+
+            }
+
+
+            li a {
+                display: block;
+                color: #D8D8D8;
+                text-align: center;
+                padding: 40px;
+                width: 100%;
+
+            }
+        }
+
+
+
+
+
+    }
+
+    #icons {
+        display: flex;
+        justify-content: center;
+        
+
+        li a {
+            
+            color: #D8D8D8;
+           
+            padding: 40px;
+            width: 100%;
+            justify-content: center;
+           
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+}

@@ -1,0 +1,261 @@
+/* =============
+    Header
+============= */
+// #header {
+//     display: grid;
+
+//     ul {
+//         padding: 0;
+//         margin: 0;
+//     }
+
+//     li {
+//         list-style: none;
+//     }
+
+
+
+//     // #header-content {
+
+//     //     background-color: black;
+//     //     grid-area: header-content;
+//     //     grid-template-columns: repeat(3, 1fr);
+
+//     //     .c1 {
+//     //         border: red;
+
+
+
+//     //     }
+
+//     //     .c2 {
+//     //         color: white;
+
+
+//     //     }
+
+//     //     .c3 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     }
+
+
+
+
+
+//     #header-list {
+//         display: grid;
+//         grid-gap: 8px;
+//         grid-template-columns: repeat(4, 1fr);
+//         grid-template-rows: 40px 40px 40px;
+//         margin: 10px 10px 10px 10px;
+
+
+//     .h1 {
+//         grid-column-start: 2;
+//         grid-column-end: 4;
+//     }
+
+//     .h2 {}
+
+//     .h3 {}
+
+//     .h4 {}
+
+//     .h5 {}
+
+
+
+
+
+
+
+
+
+
+
+
+//     }
+
+#header {
+    justify-content: stretch ;
+    >div {
+        display: block;
+
+
+        ul {
+            display: block;
+
+            li {
+                display: block;
+
+                img {
+                    width: 100%;
+
+
+                    display:grid;
+                }
+
+
+
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+    .header-content {
+    
+        
+
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: (6, 1fr);
+        background-color: black;
+        color: white;
+        
+        
+
+        border-color: black;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+
+
+
+
+        .c-1 {
+            
+            grid-column: 2/3;
+            
+
+
+
+
+
+        }
+
+        .c-2 {
+
+            grid-column: 4/5;
+
+            h2{ 
+                padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+
+                
+            }
+
+
+
+
+
+
+        }
+
+    
+
+        
+
+
+
+
+
+
+    }
+
+
+
+
+
+    #header-list {
+        >div{
+           
+            ul{
+           
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(6, auto);
+            align-content: inline;
+            justify-content: space-around;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+           
+
+            .s-1 {}
+
+            .s-2 {}
+
+            .s-3 {}
+
+            .s-4 {}
+
+            .s-5 {}
+
+            .s-6{}
+            
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+        }
+
+        
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

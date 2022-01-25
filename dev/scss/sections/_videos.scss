@@ -1,0 +1,86 @@
+ /* =============
+     videos
+ ============= */
+
+ #videosheader{
+     margin-top: 25px;
+    margin-bottom: -30px;
+}
+
+ #videos {
+     display: grid;
+    
+     
+     @include md {
+         display: grid;
+         grid-template-columns: 16px auto 16px;
+         grid-template-areas: ". videos .";
+     }
+
+     @include xl {
+         grid-template-columns: auto 1200px auto;
+     }
+
+     >div {
+         display: grid;
+         grid-template-columns: 16px auto 16px;
+         grid-template-areas: ". videos .";
+         
+
+
+         @include md {
+
+             display: grid;
+             grid-area: videos;
+             grid-template-columns: 16px auto 16px;
+             grid-template-areas: ". videos .";
+         }
+
+
+         ul {
+             margin-top: 20px;
+             gap: 16px;
+             display: grid;
+             grid-area: videos;
+
+
+             @include md {
+                 display: grid;
+                 grid-template-columns: repeat(2, 1fr);
+                 grid-template-areas:
+                     "n1 n2"
+                     "n3 n4"
+                     " n5 n6";
+                 
+             }
+
+            
+
+           
+
+
+             li {
+
+                 img {
+                     width: 100%;
+                 }
+
+                 section {
+                     display: grid;
+                     grid-template-columns: 16px auto 16px;
+                     grid-template-areas: ". videos .";
+
+                     >div {
+                         grid-area: video;
+
+
+
+                     }
+                 }
+             }
+
+
+         }
+     }
+
+ }

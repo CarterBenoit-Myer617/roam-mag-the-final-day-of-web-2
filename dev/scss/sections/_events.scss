@@ -1,0 +1,78 @@
+/* =============
+     events
+ ============= */
+#events {
+    display: grid;
+
+    @include md {
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". events .";
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+
+
+    }
+    >div {
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". events .";
+        
+
+
+        @include md {
+
+            display: grid;
+            grid-area: events ;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". events .";
+        }
+
+
+        ul {
+            margin-top: 20px;
+            gap: 16px;
+            display: grid;
+            grid-area: events ; 
+
+
+            @include md {
+                display: grid;
+                
+            }
+
+           
+
+          
+
+
+            li {
+
+                img {
+                    width: 100%;
+                }
+
+                section {
+                    display: grid;
+                    grid-template-columns: 16px auto 16px;
+                    grid-template-areas: ". events .";
+
+                    >div {
+                        grid-area: events ;
+
+
+
+                    }
+                }
+            }
+
+
+        }
+    }
+    
+
+
+
+}

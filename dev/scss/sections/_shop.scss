@@ -1,0 +1,83 @@
+/* =============
+    shop
+ ============= */
+
+ #shop {
+    display: grid;
+
+    @include md {
+      display: grid;
+      grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". shop .";
+    }
+ 
+    @include xl {
+      grid-template-columns: auto 1200px auto;
+    }
+ 
+ 
+    >div {
+     display: grid;
+     grid-template-columns: 16px auto 16px;
+     grid-template-areas: ". shop .";
+     
+ 
+ 
+     @include md {
+ 
+         display: grid;
+         grid-area: shop;
+         grid-template-columns: 16px auto 16px;
+         grid-template-areas: ". shop .";
+     }
+ 
+ 
+     ul {
+         margin-top: 20px;
+         gap: 16px;
+         display: grid;
+         grid-area: shop;
+ 
+ 
+         @include md {
+             display: grid;
+             
+             
+             
+         }
+ 
+        
+ 
+       
+ 
+ 
+         li {
+ 
+             img {
+                 width: 100%;
+             }
+
+             h3{
+                color:#A60E0C;
+            }
+ 
+             section {
+                 display: grid;
+                 grid-template-columns: 16px auto 16px;
+                 grid-template-areas: ". shop .";
+ 
+                 >div {
+                     grid-area: shop;
+ 
+ 
+ 
+                 }
+             }
+         }
+ 
+ 
+     }
+ }
+ 
+ }
+ 
