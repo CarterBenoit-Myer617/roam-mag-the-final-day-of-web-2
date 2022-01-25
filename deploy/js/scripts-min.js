@@ -27,7 +27,7 @@ window.addEventListener('load', function(){
     // console.log(answer);
 
     // index values               0                   1                   2
-    let triggerElements = ["#skater-with-hat","#history-first","#skills-content"];
+    let triggerElements = ["#issues-top","#history-first","#skills-content"];
     // console.log(triggerElements);
     // console.log(triggerElements.length);
     //console.log(triggerElements[0]);

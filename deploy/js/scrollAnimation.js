@@ -10,8 +10,8 @@ export function slideInRight(triggerElement,animationElement ){
         alpha:0,
         scrollTrigger:{
             trigger: "skater-with-hat",
-            start:"top center%",
-            end: "bottom  80%",
+            start:"top",
+            end: "bottom",
             toggleActions: "restart none resume pause",
             markers: true,
             scrub: true
@@ -20,7 +20,7 @@ export function slideInRight(triggerElement,animationElement ){
     });
 }
 
-export function slideInLeft(triggerElement,animationElement ){
+export function slideInLeft(triggerElement,animationElement){
     const tl = new gsap.timeline();
     tl.from(animationElement,{
         duration:1,
