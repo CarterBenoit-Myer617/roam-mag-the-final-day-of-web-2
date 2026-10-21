@@ -7,7 +7,5 @@
   "license": "UNLICENSED",
   "repository": {},
   "private": true,
-  "dependencies": {
-    "gsap": "file:../../Document/GitHub/gsap-member/npm-install-this/gsap-bonus.tgz"
-  }
+  "dependencies": {}
 }
